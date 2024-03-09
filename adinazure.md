@@ -71,10 +71,67 @@
 ![alt text](image-14.png)
 
 - Now, we have a AD with 999 users.
-#
+
+##
+
 
 # 3. DNS server
 
 ![alt text](image-15.png)
 
 - That IP is from the Windows Server VM.
+
+##
+
+# 4. Windows 10 Machine
+
+![alt text](image-16.png)
+
+- Specifications our VM
+
+##
+
+![alt text](image-17.png)
+
+- Using RDP we connect to VM
+
+![alt text](image-18.png)
+
+![alt text](image-19.png)
+
+![alt text](image-20.png)
+
+![alt text](image-21.png)
+
+##
+
+# 5. Login as user pluck
+
+![alt text](image-25.png)
+![alt text](image-26.png)
+
+- pluck need to have a rol of Domin Admins, we can't login witch another user.
+
+##
+
+![alt text](image-22.png)
+
+![alt text](image-24.png)
+
+
+
+![alt text](image-27.png)
+
+##
+
+# 6. Resourse Delete
+
+![alt text](image-28.png)
+
+- In CloudShell from Azure, to delete a resource group write : 
+
+                  az group delete --name "resourcegroup name"
+
+# 7. Conclusion
+
+- The deployed environment is a representation of a corporate network, the use of PowerShell to create more than 999 increased our productivity, besides being faster, it is more secure, since it is less likely to make a typing error.
